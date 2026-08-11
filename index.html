@@ -255,6 +255,7 @@
   .testi-section .eyebrow{color:var(--pixie-gold-soft);}
   .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
   .testi-grid.two-col{grid-template-columns:repeat(2,1fr);max-width:820px;margin:0 auto;}
+  .testi-grid.four-col{grid-template-columns:repeat(2,1fr);max-width:900px;margin:0 auto;}
   .testi-card{
     background:rgba(255,255,255,0.06);
     border:1px solid rgba(255,255,255,0.12);
@@ -352,7 +353,7 @@
     .trust-grid{grid-template-columns:repeat(2,1fr);gap:26px;}
     .dest-grid{grid-template-columns:1fr;}
     .steps{grid-template-columns:1fr;gap:30px;}
-    .testi-grid, .testi-grid.two-col{grid-template-columns:1fr;}
+    .testi-grid, .testi-grid.two-col, .testi-grid.four-col{grid-template-columns:1fr;}
     .nav-links{
       position:absolute;top:100%;left:0;right:0;
       background:var(--pixie-cream);flex-direction:column;align-items:flex-start;
@@ -532,7 +533,7 @@
       <span class="eyebrow">Kind Words</span>
       <h2>What Families Are Saying</h2>
     </div>
-    <div class="testi-grid">
+    <div class="testi-grid four-col">
       <div class="testi-card reveal">
         <div class="testi-stars">★★★★★</div>
         <p class="quote">"Carey Richey was fantastic to work with! She was friendly, responsive, and flexible throughout the entire process. She handled every challenge with professionalism and never pressured us or tried to upsell anything. From start to finish, she made planning our first Disney Cruise experience feel easy and far less intimidating. We truly appreciated her guidance and support and would gladly work with her again."</p>
@@ -547,6 +548,11 @@
         <div class="testi-stars">★★★★★</div>
         <p class="quote">"Carey was very patient and friendly. She eased any concerns I raised, answered all my questions and even gave us some amazing suggestions. My daughters and I really enjoyed our vacation!"</p>
         <div class="who">&mdash; Heather Brown</div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="quote">"Carey Richey was absolutely amazing. From the starting of planning until the trip was over, she was there every step of the way. Any time I needed help or to change something, she responded almost immediately and got it done. It made planning our Disney trip so easy and seamless and most importantly, stress free."</p>
+        <div class="who">&mdash; Kelly Cady</div>
       </div>
     </div>
   </div>
